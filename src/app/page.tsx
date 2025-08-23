@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative">
-        <CountDown launchDate="2025-11-06T09:10:00" />
+        <CountDown launchDate="2025-09-23T10:00:00" />
       </div>
     </>
   );

@@ -33,6 +33,12 @@ export default function Navbar() {
               >
                 Event
               </Link>
+               <Link
+                href="/hackathon"
+                className="text-white hover:bg-primaryColor hover:text-black rounded-lg p-2"
+              >
+                Hackathon
+              </Link>
               <Link
                 href="/team"
                 className="text-white hover:bg-primaryColor hover:text-black rounded-lg p-2"
@@ -103,6 +109,13 @@ export default function Navbar() {
               className="text-white block hover:bg-primaryColor hover:text-black rounded-lg p-2"
             >
               Event
+            </Link>
+            <Link
+              href="/hackathon"
+              onClick={() => setisClick(false)}
+              className="text-white block hover:bg-primaryColor hover:text-black rounded-lg p-2"
+            >
+              Hackathon
             </Link>
             <Link
               href="/team"

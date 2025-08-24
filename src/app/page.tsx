@@ -2,6 +2,7 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
+import Footer from "@/components/Footer";
 
 const CountDown = dynamic(() => import("../components/CountDown"), {
   ssr: false,
@@ -20,10 +21,11 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <HeroSection/>
       <div className="relative">
-        <HeroSection></HeroSection>
         <CountDown launchDate="2025-09-23T10:00:00" />
       </div>
+      <Footer/>
     </>
   );
 }

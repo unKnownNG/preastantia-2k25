@@ -58,25 +58,25 @@ const CountDown = ({ launchDate }: { launchDate: string }) => {
         EVENT COUNTDOWN
       </div>
       <div className="flex flex-wrap justify-center mt-10 gap-3 z-10">
-  <span className="flex flex-col justify-center p-4 text-center bg-yellow-500/30 backdrop-blur-sm text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-lg rounded-2xl border-solid border-yellow-400 border-2">
+  <span className="flex flex-col justify-center p-4 text-center text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-lg rounded-lg border-solid ">
     {timeLeft.days}
     <small className="text-xs md:text-sm uppercase font-semibold text-yellow-400">
       Days
     </small>
   </span>
-  <span className="flex flex-col justify-center p-4 text-center bg-yellow-500/30 backdrop-blur-sm text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-sm rounded-2xl border-solid border-yellow-400 border-2">
+  <span className="flex flex-col justify-center p-4 text-center backdrop-blur-sm text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-sm rounded-md ">
     {timeLeft.hours}
     <small className="text-xs md:text-sm uppercase font-semibold text-yellow-400">
       Hours
     </small>
   </span>
-  <span className="flex flex-col justify-center p-4 text-center bg-yellow-500/30 backdrop-blur-sm text-yellow-400 rounded-2xl border-solid border-yellow-400 border-2 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-lg">
+  <span className="flex flex-col justify-center p-4 text-center backdrop-blur-sm text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-sm rounded-md ">
     {timeLeft.minutes}
     <small className="text-xs md:text-sm uppercase font-semibold text-yellow-400">
       Minutes
     </small>
   </span>
-  <span className="flex flex-col justify-center p-4 text-center bg-yellow-500/30 backdrop-blur-sm text-yellow-400 rounded-2xl border-solid border-yellow-400 border-2 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-lg">
+  <span className="flex flex-col justify-center p-4 text-center backdrop-blur-sm text-yellow-400 text-xl md:text-3xl lg:text-5xl w-28 md:w-36 shadow-sm rounded-md ">
     {timeLeft.seconds}
     <small className="text-xs md:text-sm uppercase font-semibold text-yellow-400">
       Seconds

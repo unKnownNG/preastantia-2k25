@@ -1,8 +1,9 @@
 "use client"
 import Head from "next/head";
 import dynamic from "next/dynamic";
+import HeroSection from "@/components/HeroSection";
 
-const CountDown = dynamic(() => import("../components/ui/CountDown"), {
+const CountDown = dynamic(() => import("../components/CountDown"), {
   ssr: false,
 });
 
@@ -20,6 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative">
+        <HeroSection></HeroSection>
         <CountDown launchDate="2025-09-23T10:00:00" />
       </div>
     </>

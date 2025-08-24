@@ -3,7 +3,7 @@ import React from 'react'
 export default function Sponsors() {
   return (
     <>
-    <h1>Any One is Willing to Sponsor</h1>
+    <div className="flex items-center justify-center text-4xl"><h1>Coming soon</h1></div>
     </>
   )
 }

@@ -53,7 +53,7 @@ const CountDown = ({ launchDate }: { launchDate: string }) => {
   }, [launchDate]);
 
   return (
-    <div className="h-[10rem] mb-20 bg-black z-20">
+    <div className="h-[10rem] mb-20  z-20">
       <div className="flex flex-col justify-center items-center text-yellow-400 text-2xl md:text-4xl font-bold subheading">
         EVENT COUNTDOWN
       </div>

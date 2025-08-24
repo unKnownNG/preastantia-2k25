@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hackathons() {
   return (
     <>
-    <h1>Hackathon events are Ready for you</h1>
+    <div className="flex items-center justify-center text-4xl"><h1>Coming soon</h1></div>
     </>
   )
 }

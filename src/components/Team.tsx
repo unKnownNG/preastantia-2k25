@@ -3,7 +3,7 @@ import React from 'react'
 export default function Team() {
   return (
     <>
-    <h1>We are all</h1>
+    <div className="flex items-center justify-center text-4xl"><h1>Coming soon</h1></div>
     </>
   )
 }

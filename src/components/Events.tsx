@@ -207,326 +207,226 @@ export const CloseIcon = () => {
 };
 
 const cards = [
-  {
-    description: "Electronics Spark Carnival Excitement",
-    title: "Flicker Frenzy",
-    src: "/flickerFrenzy.jpg",
-    ctaText: "Register",
-    ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
-    content: () => {
-      return (
-        <p>
-          <p>
-            Blink to Win, Code to Conquer!
-            <br />
-            Welcome to the Circuit Carnival! 🎪 Step right up to test your
-            skills in the most electrifying event of the season! With circuits
-            buzzing and code flying, it’s time to show who’s the master of both
-            the ring and the relay!
-            <br />
-            <br />
-            <strong>Round 1: The Blazing LED Bonanza 🔥</strong>
-            <br />
-            Challenge: Teams are handed a bag of circuit goodies, and the goal
-            is to bring your LED to life! The moment your LED starts to twinkle
-            like the brightest star in the carnival, the timer starts ticking!
-            <br />
-            Relay Race: One member begins with the code while the other stands
-            ready at the booth. After 5 minutes, participants will swap
-            positions. The team must complete the code within the given time to
-            move on.
-            <br />
-            <br />
-            <strong>Round 2: The Electrifying Finals ⚡</strong>
-            <br />
-            Who Qualifies?: The brightest minds who aced the blinking LED
-            challenge!
-            <br />
-            The Showdown: The final act begins with more circuit fun—teams are
-            given even more dazzling components to wire up! Only the top 3
-            teams, who connect with the fastest, smartest, and most magical
-            hands, will be crowned Carnival Champions!
-            <br />
-            <br />
-            <strong>Rules:</strong>
-            <br />
-            1. Each team must consist of 2 members.
-            <br />
-            2. The use of mobile phones and AI tools is strictly prohibited.
-            <br />
-            3. No communication with other teams is allowed.
-            <br />
-            4. Teams must complete the task within the given time.
-            <br />
-            5. Teams will be judged based on speed, accuracy, creativity, and
-            completion time.
-            <br />
-            6. Components must be handled with care. Damage to the components is
-            not encouraged.
-            <br />
-            <strong>Event Coordinators:</strong>
-            <br />
-            Jeevesh H - 9791150386
-            <br />
-            Gnanasoundari R - 7200461570
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </p>
-        </p>
-      );
-    },
+{
+  description: "Ironclad Ideas",
+  title: "Paper Presentation",
+  src: "/ironcladIdeas.jpg",
+  ctaText: "Register",
+  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  content: () => {
+    return (
+      <p>
+        📄 <strong>Event Description:</strong>
+        <br />
+        Ironclad Ideas is a platform for aspiring innovators to showcase their impactful and original
+        ideas. 💡 Teams will first submit their abstracts, and shortlisted participants will present
+        their work through a professional PowerPoint presentation before a panel of judges. With
+        strong communication, technical depth, and creative delivery, only the most ironclad
+        ideas will emerge victorious 🏆. 
+        <br />
+        <br />
+        <strong>👥 Participation</strong>
+        <br />
+        Team Size: Minimum of 3 members and maximum of 4 members per team.
+        <br />
+        <br />
+        <strong>🔄 Event Format</strong>
+        <br />
+        <strong>Stage 1: Abstract Submission</strong> ✍️
+        <br />
+        - Teams submit an abstract of their work via the official Google Form. <br />
+        - Abstracts will be screened based on originality, clarity, and relevance. <br />
+        <br />
+        <strong>Stage 2: Paper Presentation (Final Round)</strong> 🎤
+        <br />
+        - 25 shortlisted teams will advance. <br />
+        - Teams are divided into two panels for the final round. <br />
+        - Each team gets 6 minutes for their PPT presentation, followed by a short Q&A. <br />
+        - Evaluation criteria: technical content, clarity, innovation, and presentation skills. <br />
+        <br />
+        <strong>📜 Rules:</strong>
+        <br />
+        1. Team size: 3–4 members. <br />
+        2. Abstracts must be submitted within the deadline. ⏳ <br />
+        3. Presentation time strictly limited to 6 minutes ⏱️. <br />
+        4. PPTs should be clear, concise, and well-structured. <br />
+        5. Plagiarism will lead to immediate disqualification 🚫. <br />
+        6. Judges’/Organizers’ decision is final. ⚖️ <br />
+        <br />
+        <strong>📞 Event Coordinators:</strong>
+        <br />
+        Jeevesh H - 9791150386 <br />
+        Gnanasoundari R - 7200461570 <br />
+        <br />
+        <br />
+        <br />
+      </p>
+    );
   },
+}
+,
   {
-    description: "Unveil Ideas, Master Innovation!",
-    title: "Mind Masquerade",
-    src: "/img2.webp",
-    ctaText: "Register",
-    ctaLink: "https://forms.gle/Arzooiji89DK6i2o7",
-    content: () => {
-      return (
-        <p>
-          Step into the world of innovation and technology, where the brightest
-          minds from every discipline converge to showcase their groundbreaking
-          ideas. Mind Masquerade invites participants to present visionary
-          solutions that transcend the ordinary, in domains ranging from
-          Agriculture to Artificial Intelligence and Drones.
-          <br />
-          <br />
-          This is not just a competition—it’s a stage for the thinkers,
-          dreamers, and innovators. Whether you're tackling real-world problems
-          or pushing the limits of technology, Mind Masquerade is your platform
-          to shine. With an electrifying blend of intellect and creativity, only
-          the teams with the most compelling ideas will make it to the top.
-          <br />
-          <br />
-          Each team will present a comprehensive solution, supported by
-          research, innovative problem-solving, and a 'creative business model'
-          that sets them apart. Your journey through the event will be guided by
-          a well-structured presentation format designed to highlight the most
-          critical aspects of your work.
-          <br />
-          <br />
-          <strong>Rules:</strong>
-          <br />
-          1. Teams must consist of a minimum of 2 members and a maximum of 4,
-          from any department.
-          <br />
-          2. An abstract submission via Gform registration is mandatory.
-          <br />
-          3. PowerPoint presentations must follow the given format but use your
-          own template for creativity.
-          <br />
-          <br />
-          <strong>Idea Domains:</strong>
-          <br />
-          1. IoT
-          <br />
-          2. Antenna
-          <br />
-          3. Artificial Intelligence
-          <br />
-          4. VLSI
-          <br />
-          5. Robotics
-          <br />
-          6. Wireless Communication
-          <br />
-          7. Others
-          <br />
-          <br />
-          <strong>PPT Format:</strong>
-          <br />
-          1. Problem Statement
-          <br />
-          2. Proposed Solution
-          <br />
-          3. Flowchart/Block Diagram
-          <br />
-          4. Showstopper/Dependencies
-          <br />
-          5. Comparison
-          <br />
-          6. Creative Business Model
-          <br />
-          7. Conclusion
-          <br />
-          <br />
-          <strong>Event Coordinators:</strong>
-          <br />
-          Anisha P – 8778823101
-          <br />
-          Aswin Kumar B - 6383093225
-          <br />
-          Sriharshini S - 9042496792
-          <br />
-          <br />
-          <br />
-          <br />
-        </p>
-      );
-    },
+  description: "Ferum Fact",
+  title: "Technical Quiz",
+  src: "/ferumFact.jpg",
+  ctaText: "Register",
+  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  content: () => {
+    return (
+      <p>
+        🧠 <strong>Event Description:</strong>
+        <br />
+        Ferum Fact is an electrifying technical quiz designed to test knowledge across diverse
+        engineering disciplines ⚙️. It challenges participants’ problem-solving skills, speed,
+        and logical thinking under pressure, making it the ultimate test of engineering acumen. ⚡
+        <br />
+        <br />
+        <strong>👥 Participation</strong>
+        <br />
+        Team Size: Minimum of 3 members and maximum of 4 members per team.
+        <br />
+        <br />
+        <strong>🔄 Event Format</strong>
+        <br />
+        <strong>Round 1: Card of Confidence (Eliminatory Round) 🃏</strong>
+        <br />
+        - Each team receives two cards: ❤️ (Red Heart) & ♠️ (Black Spade). <br />
+        - Confident participants raise ❤️ for answers they know, and ♠️ for guesses. <br />
+        - No card = no attempt. <br />
+        - Scoring: ❤️ = 4 points, ♠️ = 2 points, no negative marks. <br />
+        <br />
+        <strong>Round 2: Suspense Round 🔮</strong>
+        <br />
+        - Shortlisted teams face high-level technical questions. <br />
+        - This round focuses on depth of knowledge, reasoning, and quick responses. <br />
+        <br />
+        <strong>📜 Rules:</strong>
+        <br />
+        1. Team size: 3–4 members. <br />
+        2. Use of mobile phones or electronic gadgets is strictly prohibited 🚫📱. <br />
+        3. Any malpractice leads to instant disqualification ⚠️. <br />
+        4. Judges’/Organizers’ decision is final ⚖️. <br />
+        <br />
+        <strong>📞 Event Coordinators:</strong>
+        <br />
+        Jeevesh H - 9791150386 <br />
+        Gnanasoundari R - 7200461570 <br />
+        <br />
+        <br />
+        <br />
+      </p>
+    );
   },
-
+}
+,
+{
+  description: "Mind Steel",
+  title: "Sherlock Holmes Challenge",
+  src: "/mindSteel.jpg",
+  ctaText: "Register",
+  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  content: () => {
+    return (
+      <p>
+        🕵️‍♂️ <strong>Event Description:</strong>
+        <br />
+        Step into the shoes of Sherlock Holmes in <strong>Mind Steel</strong> 🔍 — a thrilling
+        detective-themed mystery challenge. Across two exciting rounds, participants will
+        face riddles, puzzles, and a final case investigation filled with hidden clues and
+        tricky suspects. With logic, observation, and determination, only those with true
+        iron resolve will crack the mystery and claim victory 🏆.
+        <br />
+        <br />
+        <strong>👥 Participation</strong>
+        <br />
+        Team Size: Minimum of 3 members per team.
+        <br />
+        <br />
+        <strong>🔄 Event Format</strong>
+        <br />
+        <strong>Round 1: Mind Maze (Riddles & Puzzles) 🧩</strong>
+        <br />
+        - Teams solve tricky riddles, logic puzzles, and coded clues. <br />
+        - Purpose: Elimination round to test quick thinking and problem-solving ⚡. <br />
+        <br />
+        <strong>Round 2: The Final Case (Mystery Investigation) 🔎</strong>
+        <br />
+        - A full detective case with suspects, evidence, and misleading clues. <br />
+        - Teams must carefully analyze everything and identify the culprit with solid reasoning. <br />
+        <br />
+        <strong>📜 Rules:</strong>
+        <br />
+        1. Each team must have a minimum of 3 members 👥. <br />
+        2. Mobile phones or external help are strictly prohibited 🚫📱. <br />
+        3. Each round will have a fixed time limit ⏳. <br />
+        4. Teams must submit final answers in the required format 📝. <br />
+        5. Judges’/Organizers’ decision will be final and binding ⚖️. <br />
+        <br />
+        <strong>📞 Event Coordinators:</strong>
+        <br />
+        Jeevesh H - 9791150386 <br />
+        Gnanasoundari R - 7200461570 <br />
+        <br />
+        <br />
+        <br />
+      </p>
+    );
+  },
+}
+,
   {
-    description: "The Ultimate Carnival Trivia Showdown",
-    title: "Brain-o-Val Conquer",
-    src: "/brainOVal.jpg",
-    ctaText: "Register",
-    ctaLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLScsFsffPBtEUAlL5App3HUAtvhLWg0cYTr8aalNu2j_piSM8g/viewform?usp=sf_link",
-    content: () => {
-      return (
-        <p>
-          Event Description:
-          <br />
-          Step right up to Brain-O-Val Conquere, where the thrill of a carnival
-          meets the excitement of trivia! Teams will compete in a lively,
-          action-packed contest where knowledge, speed, and strategy take center
-          stage. With carnival-inspired challenges and a festive atmosphere, get
-          ready to stack, build, and block your way to victory in two
-          electrifying rounds of technical trivia!
-          <br />
-          <br />
-          <strong>PARTICIPATION</strong>
-          <br />
-          Team Size: Maximum of 3 members and minimum of 2 members per team.
-          <br />
-          <br />
-          <strong>ROUNDS</strong>
-          <br />
-          <strong>Round 1: Stack & Answer Spectacle</strong>
-          <br />
-          Challenge: In this carnival-style showdown, teams will face a series
-          of trivia questions displayed on the screen. But there’s a
-          twist—before answering, teams must stack cups in a specific pattern,
-          just like a carnival game challenge! The pattern will be displayed
-          before each question for 15 sec. The team should memorize the pattern
-          in the given time and try to replicate it. The first team to
-          successfully stack the cups in the correct pattern earns the chance to
-          answer the question.
-          <br />
-          Advancement: The teams with the most points will advance to the grand
-          finale.
-          <br />
-          Objective: Stack your cups, be the first to buzz in, and score big
-          points!
-          <br />
-          <br />
-          <strong>Round 2: Build or Bust Bonanza</strong>
-          <br />
-          Challenge: The top 4 teams advance to this thrilling final round. In
-          this round, answering questions correctly allows teams to build their
-          own carnival blocks. If answered wrong, the team has to step one block
-          down from their tower. But the fun doesn’t stop there—teams can also
-          use their points to destroy an opponent’s blocks, adding a strategic
-          twist to the carnival chaos! Every correct answer either builds your
-          structure or knocks down your rivals’ towers.
-          <br />
-          Objective: Be the first team to build all four blocks and stand
-          victorious as the champions of the Brain-o-Val!
-          <br />
-          <br />
-          <strong>Event Rules:</strong>
-          <br />
-          - Teams must consist of up to 2-3 members.
-          <br />
-          - In Round 1, teams must stack cups according to the carnival-inspired
-          pattern shown on the screen before each trivia question.
-          <br />
-          - In Round 2, correct answers will allow teams to either build their
-          blocks or bust their opponents’ blocks. A wrong answer will destroy
-          their own block.
-          <br />
-          - The first team to complete the stacking pattern gets the first
-          opportunity to answer.
-          <br />
-          - The decisions of the quizmaster and event coordinators are final;
-          arguments are strictly prohibited. If violated, immediate
-          disqualification of the respective team will be executed!
-          <br />
-          - Tiebreaker: In case of a tie, the first team to answer correctly
-          will take home the grand prize.
-          <br />
-          <br />
-          <strong>Event Coordinators:</strong>
-          <br />
-          Mohamed Daanish R - 9789844909
-          <br />
-          Murali Karthik K - 9944040767
-          <br />
-          <br />
-          <br />
-          <br />
-        </p>
-      );
-    },
+  description: "EPL Auction",
+  title: "IPL Auction Challenge",
+  src: "/eplAuction.jpg",
+  ctaText: "Register",
+  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  content: () => {
+    return (
+      <p>
+        🏏 <strong>Event Description:</strong>
+        <br />
+        Get ready for a thrilling game of bidding and strategy as our department hosts the
+        ultimate <strong>EPL – IPL Auction</strong> 🎉. Step into the shoes of franchise owners, manage
+        your virtual budget 💰, and build your dream IPL squad. Experience the adrenaline rush
+        of a real auction right here on campus! ⚡
+        <br />
+        <br />
+        <strong>👥 Participation</strong>
+        <br />
+        Team Size: Minimum of 3 members per team.
+        <br />
+        <br />
+        <strong>🔄 Event Format</strong>
+        <br />
+        <strong>Round 1: Player Bidding 💸</strong>
+        <br />
+        - Each team receives a virtual budget to bid on marquee players. <br />
+        - Auction proceeds in rounds with player lists revealed one by one. <br />
+        - Teams must make smart financial and strategic choices. <br />
+        <br />
+        <strong>Round 2: Team Formation 🏆</strong>
+        <br />
+        - Teams must form a balanced squad with batsmen, bowlers, and all-rounders. <br />
+        - Objective: Build the strongest possible team to dominate the virtual IPL league. <br />
+        - Bonus points for strategy, budget management, and creativity. <br />
+        <br />
+        <strong>📜 Rules:</strong>
+        <br />
+        1. Each team must consist of at least 3 members 👥. <br />
+        2. Use of mobile phones or external help is strictly prohibited 🚫📱. <br />
+        3. Each round has a fixed time limit ⏳. <br />
+        4. Teams must submit their final squad in the required format 📝. <br />
+        5. Judges’/Organizers’ decision will be final and binding ⚖️. <br />
+        <br />
+        <strong>📞 Event Coordinators:</strong>
+        <br />
+        Jeevesh H - 9791150386 <br />
+        Gnanasoundari R - 7200461570 <br />
+        <br />
+        <br />
+        <br />
+      </p>
+    );
   },
-  {
-    description: "Strike a Deal",
-    title: "Stadium Wonders",
-    src: "/stadiumWonders.jpg",
-    ctaText: "Register",
-    ctaLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLScPMQ-kahrignSc7C79aVZ2IDJDIR4FiNlEu07GmqogGShnqw/viewform?usp=sf_link",
-    content: () => {
-      return (
-        <p>
-          <div>
-            <h1>Stadium Wonders - Strike a Deal</h1>
-            <p>
-              "Bid, build, and battle! Create your dream team in this exciting
-              IPL mock auction."
-            </p>
-            <br />
-            <p>
-              Experience the thrill of the IPL auction! Bid on your favorite
-              cricketers and create your dream team in this exciting mock
-              auction.
-            </p>
-            <br />
-            <strong>RULES :</strong>
-            <br />
-            <p>1. 10 teams of min 2 members or max 3 members are allowed.</p>
-            <p>
-              2. The 10 teams are randomly assigned with 10 IPL teams by random
-              draw.
-            </p>
-            <p>3. Each team will receive an IPL team according to the draw.</p>
-            <p>
-              4. Teams will receive a virtual budget to bid on their favorite
-              IPL players and the teams can retain a min of 1 capped or uncapped
-              or maximum of 6 players of 4 capped and 2 uncapped or 5 capped or
-              1 uncapped.
-            </p>
-            <p>
-              5. Teams will receive Right to Match cards based on their
-              retentions.
-            </p>
-            <p>
-              6. The auction will be conducted in a fast-paced, competitive
-              environment with multiple rounds based on Marquee list of players.
-            </p>
-            <p>
-              7. The goal is to create a balanced team that can dominate the
-              virtual IPL league.
-            </p>
-            <br />
-            <br />
-            <strong>Event Coordinators:</strong>
-            <br />
-            Suhanthee R - 9626403845
-            <br />
-            Nithiyarasan T - 9042031009
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-        </p>
-      );
-    },
-  },
+},
 ];

@@ -17,12 +17,19 @@ export default function HeroSection() {
       <div className="mx-auto rounded-md w-full h-[40rem] mb-20 overflow-hidden z-30 p-0 m-0">
 
           <div className="flex items-center flex-col justify-center px-2 m-0 md:px-10 py-4 w-full h-full">
+            <Image 
+              src="/logo/logo2.png" 
+              alt="ece" 
+              width={100} 
+              height={100} 
+              className="w-36 h-36 md:w-48 md:h-48 lg:w-72 lg:h-72 object-contain animate-float" 
+            />
             <div className="flex-shrink-0">
             <Image 
               src="/logo/logo.png" 
               alt="Logo" 
-              width={250} 
-              height={250} 
+              width={400} 
+              height={400} 
               className="w-36 h-36 md:w-48 md:h-48 lg:w-72 lg:h-72 object-contain animate-float" 
             />
           </div>

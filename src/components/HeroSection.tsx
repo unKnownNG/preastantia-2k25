@@ -17,13 +17,16 @@ export default function HeroSection() {
               className="object-contain z-10"
             />
           </div>
+          <div className="text-primaryColor font-bold text-sm md:text-base lg:text-lg max-w-xl mt-6 text-center">Proudly Presents</div>
 
           {/* Second Logo (16:9 and larger than first) */}
-          <div className="flex-shrink-0 relative w-56 h-32 md:w-72 md:h-40 lg:w-96 lg:h-54 mt-6">
+          <div className="flex-shrink-0 relative w-70 h-46 md:w-86 md:h-50 lg:w-132 lg:h-76 mt-6">
             <Image
               src="/logo/logo.png"
               alt="Logo"
-              fill
+              // fill
+              width={900}
+              height={910}
               className="object-contain animate-float"
             />
           </div>

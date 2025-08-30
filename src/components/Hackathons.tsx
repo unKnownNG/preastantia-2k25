@@ -113,7 +113,7 @@ export default function TimelineDemo() {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden py-20">
+    <div className="relative w-full overflow-hidden py-20 bg-black/20">
       {/* 🔮 Background gradient + floating blobs */}
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-100 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950" />
       <div className="absolute top-40 -left-20 w-72 h-72 bg-purple-400/30 dark:bg-purple-600/20 rounded-full blur-3xl animate-pulse" />
@@ -121,7 +121,7 @@ export default function TimelineDemo() {
       <div className="absolute top-60 right-1/3 w-40 h-40 bg-pink-300/30 dark:bg-pink-700/20 rounded-full blur-2xl animate-bounce" />
 
       {/* Content */}
-      <div className="relative container mx-auto px-6">
+      <div className="relative container mx-auto px-6 bg-black/20">
         <h2 className="text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 mb-16 drop-shadow-xl">
           ECE Hackathon Journey
         </h2>

@@ -14,7 +14,11 @@ import {
 export default function TimelineDemo() {
   const data = [
     {
-      title: "24 Aug 2025",
+      title: (
+        <span className="text-yellow-300 font-semibold drop-shadow-md">
+          24 Aug 2025
+        </span>
+      ),
       content: (
         <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
           <h3 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400 mb-4 flex items-center gap-3">
@@ -41,7 +45,11 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "31 Aug 2025",
+      title: (
+        <span className="text-yellow-300 font-semibold drop-shadow-md">
+          31 Aug 2025
+        </span>
+      ),
       content: (
         <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
           <h3 className="text-2xl font-bold text-pink-600 dark:text-pink-400 mb-4 flex items-center gap-3">
@@ -68,7 +76,11 @@ export default function TimelineDemo() {
       ),
     },
     {
-      title: "23 Sep 2025",
+      title: (
+        <span className="text-yellow-300 font-semibold drop-shadow-md">
+          23 Sep 2025
+        </span>
+      ),
       content: (
         <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
           <h3 className="text-2xl font-bold text-teal-600 dark:text-teal-400 mb-4 flex items-center gap-3">
@@ -111,7 +123,7 @@ export default function TimelineDemo() {
       {/* Content */}
       <div className="relative container mx-auto px-6">
         <h2 className="text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 mb-16 drop-shadow-xl">
-          🚀 Hackathon Journey
+          ECE Hackathon Journey
         </h2>
 
         <Timeline data={data} />

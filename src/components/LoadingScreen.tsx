@@ -1,39 +1,35 @@
 "use client";
 
-import { motion } from "framer-motion";
-import Image from "next/image";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function LoadingScreen() {
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
-      {/* Logo with scale-up animation */}
-      <motion.div
-        initial={{ scale: 0.2, opacity: 0 }} // very small
-        animate={{ scale: 1, opacity: 1 }}   // full size
-        transition={{
-          duration: 1,       // 1 sec
-          ease: "easeOut",   // smooth
-        }}
-        className="relative"
-      >
-        <Image
-          src="/logo/logo.png"
-          alt="Logo"
-          width={150}
-          height={150}
-          className="drop-shadow-lg"
-        />
+  const [isLoading, setIsLoading] = useState(true);
 
-        {/* Crack effect overlay */}
-        <motion.img
-          src="/crack.png"
-          alt="crack"
-          className="absolute inset-0 w-full h-full object-contain pointer-events-none"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1, duration: 0.5, ease: "easeOut" }}
-        />
-      </motion.div>
-    </div>
+  return (
+    <AnimatePresence>
+      {isLoading && (
+        <motion.div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black"
+          initial={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <video
+            className="max-w-[600px] w-full h-auto"
+            autoPlay
+            muted
+            playsInline
+            onEnded={() => setIsLoading(false)} // hide after video finishes
+          >
+            <source src="/video/loading.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          {/* Optional dark overlay */}
+          <div className="absolute inset-0 bg-black/30 pointer-events-none" />
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }

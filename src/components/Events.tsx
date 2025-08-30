@@ -210,7 +210,7 @@ const cards = [
 {
   description: "Ironclad Ideas",
   title: "Paper Presentation",
-  src: "/ironcladIdeas.jpg",
+  src: "/img/events/paper.jpg",
   ctaText: "Register",
   ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
   content: () => {
@@ -268,7 +268,7 @@ const cards = [
   {
   description: "Ferum Fact",
   title: "Technical Quiz",
-  src: "/ferumFact.jpg",
+  src: "/img/events/quiz.jpg",
   ctaText: "Register",
   ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
   content: () => {
@@ -322,7 +322,7 @@ const cards = [
 {
   description: "Mind Steel",
   title: "Sherlock Holmes Challenge",
-  src: "/mindSteel.jpg",
+  src: "/img/events/sher.jpg",
   ctaText: "Register",
   ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
   content: () => {
@@ -377,7 +377,7 @@ const cards = [
   {
   description: "EPL Auction",
   title: "IPL Auction Challenge",
-  src: "/eplAuction.jpg",
+  src: "/img/events/epl.jpg",
   ctaText: "Register",
   ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
   content: () => {

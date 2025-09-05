@@ -10,12 +10,6 @@ const CountDown = dynamic(() => import("../components/CountDown"), {
   ssr: false,
 });
 
-const images = [
-  { src: "/img1.jpg", alt: "Image 1" },
-  { src: "/img2.jpg", alt: "Image 2" },
-  { src: "/img3.jpg", alt: "Image 3" }
-];
-
 
 export default function Home() {
    const [loading, setLoading] = useState(true);

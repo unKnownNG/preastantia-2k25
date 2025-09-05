@@ -8,6 +8,7 @@ import {
   FaUsers,
   FaTrophy,
   FaCodeBranch,
+  FaBusinessTime,
 } from "react-icons/fa";
 
 export default function TimelineDemo() {
@@ -19,25 +20,26 @@ export default function TimelineDemo() {
         </span>
       ),
       content: (
-        <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
-          <h3 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400 mb-4 flex items-center gap-3">
-            <FaRegLightbulb className="text-yellow-500 text-2xl" /> Round 1 – Abstract Submission
+        <div className="bg-black/40 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-yellow-400 hover:scale-[1.02] transition-transform">
+          <h3 className="text-2xl font-bold text-indigo-400 mb-4 flex items-center gap-3">
+            <FaRegLightbulb className="text-yellow-400 text-2xl" /> Round 1 – Abstract Submission
           </h3>
-          <p className="text-base text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">
-            Teams kick off their journey by submitting an abstract showcasing
-            their innovative idea. This is your gateway to the finals 🚀.
+          <p className="text-base text-neutral-200 mb-6 leading-relaxed">
+            Teams must submit an abstract of their proposed solution in advance.
           </p>
-          <ul className="space-y-3 text-base text-neutral-800 dark:text-neutral-300">
+          <ul className="space-y-3 text-base text-neutral-200">
             <li className="flex items-start gap-3">
-              <FaCheckCircle className="text-green-500 mt-1 text-lg" />
-              <span>Submit via official website or Google Form.</span>
+              <FaCheckCircle className="text-green-400 mt-1 text-lg" />
+              <span>Abstract should clearly define the problem and proposed solution.</span>
             </li>
             <li className="flex items-start gap-3">
-              <FaCodeBranch className="text-blue-500 mt-1 text-lg" />
-              <span>Evaluation: Innovation, feasibility, SDG alignment & clarity.</span>
+              <FaCodeBranch className="text-blue-400 mt-1 text-lg" />
+              <span>
+                Evaluation based on <strong>innovation, feasibility, SDG alignment, and clarity</strong>.
+              </span>
             </li>
           </ul>
-          <div className="mt-6 bg-indigo-50 dark:bg-indigo-900/40 p-4 rounded-xl text-sm text-indigo-700 dark:text-indigo-300 font-semibold border-l-4 border-indigo-400 dark:border-indigo-600">
+          <div className="mt-6 bg-indigo-400/10 p-4 rounded-xl text-sm text-indigo-300 font-semibold border-l-4 border-indigo-400/50">
             💡 Pro Tip: Keep your abstract crisp (max 300 words) and problem-focused.
           </div>
         </div>
@@ -50,26 +52,25 @@ export default function TimelineDemo() {
         </span>
       ),
       content: (
-        <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
-          <h3 className="text-2xl font-bold text-pink-600 dark:text-pink-400 mb-4 flex items-center gap-3">
-            <FaUsers className="text-blue-500 text-2xl" /> Round 1 Results 🎉
+        <div className="bg-black/40 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-yellow-400 hover:scale-[1.02] transition-transform">
+          <h3 className="text-2xl font-bold text-pink-400 mb-4 flex items-center gap-3">
+            <FaUsers className="text-blue-400 text-2xl" /> Round 1 Results 🎉
           </h3>
-          <p className="text-base text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">
-            The suspense ends! Shortlisted teams are revealed — only the best
-            ideas make it to the finals.
+          <p className="text-base text-neutral-200 mb-6 leading-relaxed">
+            Only shortlisted teams will qualify for the on-site hackathon.
           </p>
-          <ul className="space-y-3 text-base text-neutral-800 dark:text-neutral-300">
+          <ul className="space-y-3 text-base text-neutral-200">
             <li className="flex items-start gap-3">
-              <FaCheckCircle className="text-green-500 mt-1 text-lg" />
-              <span>Submission closes at <strong>12:09 AM IST</strong>.</span>
+              <FaCheckCircle className="text-green-400 mt-1 text-lg" />
+              <span>Teams evaluated on abstract submissions.</span>
             </li>
             <li className="flex items-start gap-3">
-              <FaTrophy className="text-yellow-500 mt-1 text-lg" />
-              <span>Results announced by <strong>10:59 PM IST</strong>.</span>
+              <FaTrophy className="text-yellow-400 mt-1 text-lg" />
+              <span>Selected teams proceed to the 6-hour on-site hackathon.</span>
             </li>
           </ul>
-          <div className="mt-6 bg-pink-50 dark:bg-pink-900/30 p-4 rounded-xl text-sm text-pink-700 dark:text-pink-300 font-semibold border-l-4 border-pink-400 dark:border-pink-600">
-            🎯 Tip: If not shortlisted, don’t stop! You’ll still receive feedback for growth.
+          <div className="mt-6 bg-pink-400/10 p-4 rounded-xl text-sm text-pink-300 font-semibold border-l-4 border-pink-400/50">
+            🎯 Tip: Even if not shortlisted, valuable feedback will be provided for growth.
           </div>
         </div>
       ),
@@ -81,30 +82,36 @@ export default function TimelineDemo() {
         </span>
       ),
       content: (
-        <div className="bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-neutral-200 dark:border-neutral-700 hover:scale-[1.02] transition-transform">
-          <h3 className="text-2xl font-bold text-teal-600 dark:text-teal-400 mb-4 flex items-center gap-3">
-            <FaLaptopCode className="text-indigo-500 text-2xl" /> Round 2 – On-Site Hackathon (6 Hrs)
+        <div className="bg-black/40 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-yellow-400 hover:scale-[1.02] transition-transform">
+          <h3 className="text-2xl font-bold text-teal-400 mb-4 flex items-center gap-3">
+            <FaLaptopCode className="text-indigo-400 text-2xl" /> Round 2 – On-Site Hackathon (6 Hours)
           </h3>
-          <p className="text-base text-neutral-700 dark:text-neutral-300 mb-6 leading-relaxed">
-            The ultimate challenge begins at{" "}
+          <p className="text-base text-neutral-200 mb-6 leading-relaxed">
+            The shortlisted teams will compete at{" "}
             <span className="font-semibold">Sri Sai Ram Institute of Technology, Chennai</span>.
           </p>
-          <ul className="space-y-3 text-base text-neutral-800 dark:text-neutral-300">
+          <ul className="space-y-3 text-base text-neutral-200">
             <li className="flex items-start gap-3">
-              <FaLaptopCode className="text-indigo-500 mt-1 text-lg" />
-              <span><strong>Stage 1 – Project Presentation:</strong> 5–7 min pitch per team.</span>
+              <FaLaptopCode className="text-indigo-400 mt-1 text-lg" />
+              <span>
+                <strong>Stage 1 – Project Presentation:</strong> 5–7 min pitch per team.
+              </span>
             </li>
             <li className="flex items-start gap-3">
-              <FaUsers className="text-purple-500 mt-1 text-lg" />
-              <span><strong>Stage 2 – Improvisation:</strong> Teams refine & build prototype (3–3.5 hrs).</span>
+              <FaUsers className="text-purple-400 mt-1 text-lg" />
+              <span>
+                <strong>Stage 2 – Improvisation Round:</strong> Refine & build prototypes (3–3.5 hrs).
+              </span>
             </li>
             <li className="flex items-start gap-3">
-              <FaRegLightbulb className="text-yellow-500 mt-1 text-lg" />
-              <span><strong>Stage 3 – Business Pitch:</strong> Market feasibility & SDG alignment.</span>
+              <FaBusinessTime className="text-yellow-400 mt-1 text-lg" />
+              <span>
+                <strong>Stage 3 – Business Pitch:</strong> Market feasibility, scalability, and SDG alignment.
+              </span>
             </li>
           </ul>
-          <div className="mt-6 bg-teal-50 dark:bg-teal-900/40 p-4 rounded-xl text-sm text-teal-700 dark:text-teal-300 font-semibold border-l-4 border-teal-400 dark:border-teal-600">
-            🏆 Prizes worth ₹50,000 + incubation support for top teams!
+          <div className="mt-6 bg-teal-400/10 p-4 rounded-xl text-sm text-teal-300 font-semibold border-l-4 border-teal-400/50">
+            🏆 Prizes worth ₹50,000 + incubation support for top-performing teams!
           </div>
         </div>
       ),
@@ -112,20 +119,26 @@ export default function TimelineDemo() {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden py-20 bg-black/20">
-      {/* 🔮 Background gradient + floating blobs */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-100 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950" />
-      <div className="absolute top-40 -left-20 w-72 h-72 bg-purple-400/30 dark:bg-purple-600/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 -right-20 w-72 h-72 bg-indigo-400/30 dark:bg-indigo-600/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute top-60 right-1/3 w-40 h-40 bg-pink-300/30 dark:bg-pink-700/20 rounded-full blur-2xl animate-bounce" />
-
-      {/* Content */}
-      <div className="relative container mx-auto px-6 bg-black/20">
-        <h2 className="text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 mb-16 drop-shadow-xl">
-          ECE Hackathon Journey
+    <div className="relative w-full py-20">
+      <div className="relative container mx-auto px-6">
+        <h2 className="text-center text-5xl font-extrabold text-indigo-400 mb-16">
+          PRAEST-Hack 2k25
         </h2>
 
+        {/* Timeline Section */}
         <Timeline data={data} />
+
+        {/* 🔹 Separated Register Button */}
+        <div className="flex justify-center mt-16">
+          <a
+            href="https://forms.gle/V7L39o5z3uGxyej36"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 text-xl font-bold text-black bg-yellow-400 rounded-full shadow-[0_0_15px_rgba(255,215,0,0.8)] hover:bg-yellow-500 hover:scale-105 transition-transform border-2 border-yellow-300"
+          >
+            Register Now 🚀
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -1,26 +1,22 @@
 @import "tailwindcss";
 
+/* 🌙 Force Dark Theme Globally */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #0a0a0a;   /* Dark background */
+  --foreground: #ededed;   /* Light text */
+  --font-sans: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+  --font-mono: var(--font-geist-mono, monospace);
 
-@theme inline {
+  /* You can define colors as variables */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans-base: var(--font-sans);
+  --font-mono-base: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 🌍 Apply Global Styles */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }

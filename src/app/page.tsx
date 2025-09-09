@@ -1,14 +1,11 @@
 "use client"
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
 import LoadingScreen from "@/components/LoadingScreen"; 
 import Footer from "@/components/Footer";
 
-const CountDown = dynamic(() => import("../components/CountDown"), {
-  ssr: false,
-});
+
 
 
 export default function Home() {
@@ -26,10 +23,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <HeroSection/> */}
-      <div className="relative">
-        <CountDown launchDate="2025-09-23T10:00:00" />
-      </div>
-      <Footer/>
+      
+      {/* <Footer/> */}
     </>
   );
 }

@@ -1,39 +1,31 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+// app/layout.tsx or pages/_app.tsx
+import { Roboto } from "next/font/google";
 import Navbar from "@/components/Navbar";
-// import Footer from "@/components/Footer";
-import "./globals.css";
 import Footer from "@/components/Footer";
+import "./globals.css";
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+const roboto = Roboto({
+  weight: ["400", "700"], // specify which weights you need
+  subsets: ["latin"],     // specify character sets
+  variable: "--font-roboto", // optional: for CSS variables
+});
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "PRAESTANTIA",
   description: "ELECTRONICS AND COMMUNICATION ENGINEERING",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${roboto.variable} antialiased`}>
         <Navbar />
         {children}
-        {/* <Footer/> */}
+        <Footer />
       </body>
     </html>
   );

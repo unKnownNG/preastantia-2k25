@@ -76,7 +76,7 @@ const teamMembers = {
   mediaTeam: [
     {
       name: "Mr. SIVAN MUTHU K",
-      designation: "Media Head",
+      designation: "Graphic Designer/Video Editor",
       image: "/img/members/mediateam.jpg",
       linkedin:
         "https://www.linkedin.com/in/k-sivan-muthu-5799692b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -84,11 +84,11 @@ const teamMembers = {
   ],
   devs: [
     {
-      name: "Mr. MOHAMMED DAIYAN",
-      designation: "Fullstack Developer",
-      image: "/dev1.jpg",
-      github: "https://github.com/devone",
-      linkedin: "https://www.linkedin.com/in/devone/",
+      name: "Mr. MOHAMMED DAIYAAN",
+      designation: "Developer",
+      image: "/img/members/mrx.jpeg",
+      github: "https://github.com/unknownng",
+      linkedin: "hhttps://www.linkedin.com/in/mohammed-daiyaan-6791a7276/",
     },
     {
       name: "Mr. MANOJ R",
@@ -157,7 +157,7 @@ export default function Team() {
       {/* MEET MY TEAM (HOD) */}
       <section>
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-yellow-400">
-          MEET MY TEAM
+          HOD
         </h2>
         <div className="flex justify-center gap-8 flex-wrap">
           {teamMembers.hod.map((m, idx) => (
@@ -169,7 +169,7 @@ export default function Team() {
       {/* STAFF COORDINATORS */}
       <section>
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-yellow-400">
-          STAFF COORDINATORS
+          Staff Coordinators
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center max-w-3xl mx-auto">
           {teamMembers.staffCoordinators.map((m, idx) => (
@@ -181,7 +181,7 @@ export default function Team() {
       {/* OFFICE BEARERS */}
       <section>
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-yellow-400">
-          OFFICE BEARERS
+          Office Bearers
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-5xl mx-auto">
           {teamMembers.officeBearers.map((m, idx) => (
@@ -193,7 +193,7 @@ export default function Team() {
       {/* MEDIA TEAM */}
       <section>
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-yellow-400">
-          MEDIA TEAM
+          Media Team
         </h2>
         <div className="flex justify-center flex-wrap gap-8">
           {teamMembers.mediaTeam.map((m, idx) => (
@@ -205,7 +205,7 @@ export default function Team() {
       {/* MEET THE DEVS */}
       <section>
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-yellow-400">
-          MEET THE DEVS
+          Developers
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-4xl mx-auto">
           {teamMembers.devs.map((m, idx) => (

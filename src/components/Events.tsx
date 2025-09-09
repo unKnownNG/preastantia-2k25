@@ -211,7 +211,7 @@ const cards = [
   title: "Paper Presentation",
   src: "/img/events/paper.jpg",
   ctaText: "Register",
-  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwAw00-2V3nbSke_mTVkN0braoYnzAk7zNkfPyDfepvMrZ5w/viewform",
   content: () => {
     return (
       <p>
@@ -269,7 +269,7 @@ const cards = [
   title: "Technical Quiz",
   src: "/img/events/quiz.jpg",
   ctaText: "Register",
-  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwAw00-2V3nbSke_mTVkN0braoYnzAk7zNkfPyDfepvMrZ5w/viewform",
   content: () => {
     return (
       <p>
@@ -323,7 +323,7 @@ const cards = [
   title: "Sherlock Holmes Challenge",
   src: "/img/events/sher.jpg",
   ctaText: "Register",
-  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwAw00-2V3nbSke_mTVkN0braoYnzAk7zNkfPyDfepvMrZ5w/viewform",
   content: () => {
     return (
       <p>
@@ -378,7 +378,7 @@ const cards = [
   title: "IPL Auction Challenge",
   src: "/img/events/epl.jpg",
   ctaText: "Register",
-  ctaLink: "https://forms.gle/Zo18ubobYpqfMHxE8",
+  ctaLink: "https://docs.google.com/forms/d/e/1FAIpQLScwAw00-2V3nbSke_mTVkN0braoYnzAk7zNkfPyDfepvMrZ5w/viewform",
   content: () => {
     return (
       <p>

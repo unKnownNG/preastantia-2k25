@@ -4,10 +4,10 @@
 :root {
   --background: #0a0a0a;   /* Dark background */
   --foreground: #ededed;   /* Light text */
-  --font-sans: var(--font-geist-sans, Arial, Helvetica, sans-serif);
-  --font-mono: var(--font-geist-mono, monospace);
+  --font-sans: var(--font-roboto, Arial, Helvetica, sans-serif);
+  --font-mono: var(--font-geist-mono, monospace); /* Keep or change as needed */
 
-  /* You can define colors as variables */
+  /* Color variables */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans-base: var(--font-sans);

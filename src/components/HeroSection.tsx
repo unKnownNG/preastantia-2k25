@@ -71,7 +71,7 @@ export default function HeroSection() {
       </div>
 
       {/* Enhanced Sections with Descriptions */}
-      <section className="relative z-20 w-full px-4 py-16 md:py-20 lg:py-24 bg-black/40 backdrop-blur-sm">
+      <section className="relative z-20 w-full px-4 py-16 md:py-20 lg:py-24 backdrop-blur-sm">
         <div className="mx-auto max-w-6xl text-white">
           
           {/* About Department */}
@@ -155,20 +155,14 @@ export default function HeroSection() {
             <div className="text-center mb-6">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
                 <span className="text-primaryColor">Gallery</span> Highlights
-              </h3>
-              <Link
-                href="/gallery"
-                className="text-sm md:text-base text-primaryColor hover:underline transition-all duration-200 hover:text-white"
-              >
-                View all →
-              </Link>
+              </h3> 
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 mb-6 justify-items-center">
-              {[1, 2, 3, 4].map((n) => (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-4 mb-6 justify-items-center">
+              {[1, 2, 3, 4, 5, 6].map((n) => (
                 <div key={n} className="relative aspect-[4/3] w-full max-w-xs overflow-hidden rounded-lg ring-1 ring-white/20 hover:ring-primaryColor/50 transition-all duration-200 hover:scale-105">
                   <Image
-                    src={`/gallery/g${n}.jpg`}
+                    src={`/img/achivements/c${n}.jpg`}
                     alt={`Gallery ${n}`}
                     fill
                     sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, 50vw"
@@ -177,15 +171,6 @@ export default function HeroSection() {
                   />
                 </div>
               ))}
-            </div>
-
-            <div className="text-center">
-              <Link
-                href="/gallery"
-                className="inline-flex items-center rounded-lg bg-white px-6 py-3 text-black font-semibold hover:bg-white/90 transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white/50 shadow-lg"
-              >
-                View Complete Gallery
-              </Link>
             </div>
           </div>
 

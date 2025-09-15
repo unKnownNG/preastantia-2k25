@@ -3,28 +3,40 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import HeroSection from "@/components/HeroSection";
 import LoadingScreen from "@/components/LoadingScreen"; 
-import Footer from "@/components/Footer";
-
-
-
 
 export default function Home() {
-   const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Hide loading after 3s
     const timer = setTimeout(() => setLoading(false), 3000);
     return () => clearTimeout(timer);
   }, []);
+
   return (
     <>
-    {loading ? <LoadingScreen /> : <HeroSection />}
+      {loading ? (
+        <LoadingScreen />
+      ) : (
+        <>
+          <HeroSection />
+          {/* Video only visible at the bottom, showing top part */}
+          <div className="fixed bottom-0 left-0 w-full h-full my-50vh overflow-hidden -z-10">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover object-top"
+              src="/video/smoke.mp4" // Make sure this path is correct in the public folder
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </>
+      )}
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <HeroSection/> */}
-      
-      {/* <Footer/> */}
     </>
   );
 }

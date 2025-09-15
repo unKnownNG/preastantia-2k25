@@ -35,6 +35,20 @@ export default function Sponsors() {
               className="rounded-lg shadow-lg hover:scale-105 transition-transform"
             />
           </a>
+
+          <a
+            href="https://www.capitalcranes.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/sponsors/sponsor3.jpg"
+              alt="Sponsor 1"
+              width={640}   // adjust size
+              height={310}
+              className="rounded-lg shadow-lg hover:scale-105 transition-transform p-6"
+            />
+          </a>
         </div>
       </div>
     </>

@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 const roboto = Roboto({
   weight: ["400", "700"], // specify which weights you need
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${roboto.variable} antialiased`}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>

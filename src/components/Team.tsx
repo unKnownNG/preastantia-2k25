@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 // ✅ Team Members Data (unchanged)
 const teamMembers = {
   keyPersons: [
-    { name: "Dr. CEO NAME", designation: "CEO", image: "/img/members/ceo.jpg" },
-    { name: "Mr. PRINCIPAL NAME", designation: "Principal", image: "/img/members/princi.png" },
+    { name: "Dr. Sai Prakash Leo Muthu", designation: "CEO", image: "/img/members/ceo.jpg" },
+    { name: "Dr. K. Palanikumar", designation: "Principal", image: "/img/members/princi.png" },
   ],
   hod: [
     {
